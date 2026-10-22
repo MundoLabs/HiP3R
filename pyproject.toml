@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hip3r-control"
+version = "0.1.0"
+description = "HiP3R matched control with the standard overlapping window chain"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+authors = [{name = "S-Lab"}]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "torch>=2.1",
+  "torchvision>=0.16",
+  "Pillow>=9.5",
+  "tqdm>=4.65",
+  "einops>=0.7",
+  "huggingface_hub>=0.20",
+  "safetensors>=0.4",
+  "opencv-python>=4.8",
+]
+
+[project.optional-dependencies]
+fast = ["numexpr>=2.8", "orjson>=3.9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+include = [
+  "long_reconstruction*",
+  "vggt_omega*",
+  "lingbot_map*",
+  "loop_models*",
+  "dinov2*",
+]
+
+[tool.setuptools]
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md", "licenses/*.txt"]
+
+[tool.setuptools.package-data]
+dinov2 = ["LICENSE"]

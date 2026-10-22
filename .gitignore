@@ -1,0 +1,49 @@
+# Python and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+!.env.*.example
+/.modelscope
+/.cache/
+
+# Model weights
+/checkpoints/
+/weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Input data and inference outputs
+/data/
+/inputs/
+/input.mp4
+/input_frames/
+/outputs/
+/results/
+/logs/
+*.log
+
+# Editor and operating-system files
+/.idea/
+/.vscode/
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
