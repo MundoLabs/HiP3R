@@ -174,10 +174,21 @@ with np.load("outputs/example/chunks/chunk_0000.npz") as chunk:
 This code uses [VGGT-Omega](https://github.com/facebookresearch/vggt-omega),
 [LingBot-MAP](https://github.com/Robbyant/lingbot-map),
 [SALAD](https://github.com/serizba/salad), and
-[DINOv2](https://github.com/facebookresearch/dinov2). Third-party notices are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+[DINOv2](https://github.com/facebookresearch/dinov2). 
 
 ## License
 
 Original HiP3R code is released under the [Apache License 2.0](LICENSE).
-Bundled third-party code and model weights remain subject to their respective
-licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Third-party notices are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Citation
+
+```bibtex
+@article{xu2026hip3r,
+  title={HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction},
+  author={Xu, Zunnan and Zhou, Shangchen and Luo, Yihang and Loy, Chen Change},
+  journal={arXiv preprint arXiv:2610.31635},
+  year={2026}
+}
+```
