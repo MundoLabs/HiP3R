@@ -7,8 +7,14 @@
   <a href="https://kkakkkka.github.io/HiP3R/">
     <img src="https://img.shields.io/badge/Project-Page-blue" alt="Project page">
   </a>
-  <a href="https://arxiv.org/">
-    <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b" alt="arXiv paper">
+  <a href="https://arxiv.org/abs/2610.31635">
+    <img src="https://img.shields.io/badge/arXiv-Abs-b31b1b?logo=arxiv" alt="arXiv Abs">
+  </a>
+  <a href="https://arxiv.org/pdf/2610.31635">
+    <img src="https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobatreader" alt="Paper PDF">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache--2.0-green" alt="License">
   </a>
 </p>
 
